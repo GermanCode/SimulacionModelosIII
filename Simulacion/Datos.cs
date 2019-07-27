@@ -1,28 +1,51 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Simulacion
 {
     class Datos
     {
-        public void aleatorio()
+        
+        int tiempo_pro_llegada = 6;
+        static int rango = 1000;
+        public double[] num_aleatorios = new double[rango];
+        public double[] num_pseudo = new double[rango];
+        double numerocalc;
+
+        public double aleatorio()
         {
-            int tiempo_pro_llegada = 6;
-            int rango = 1000;
-            double[] num_aleatorios = new double[1000];
-            double[] num_aleatorios_excel = new double[1000];
             for (int i = 0; i < rango; i++)
             {
                 num_aleatorios[i] = new Random().NextDouble();
-                Console.WriteLine("aqui va el numero: " + i + " el aleatorio solo: " + num_aleatorios[i]);
-                Console.WriteLine("aqui va el numero: " + i + " el aleatorio de excel: " + (tiempo_pro_llegada * -1) * Math.Log(num_aleatorios[i]));
-
+                //Console.WriteLine("aqui va el numero: " + i + " el aleatorio: " + (tiempo_pro_llegada * -1) * Math.Log(num_aleatorios[i]));
+                num_pseudo[i] = (tiempo_pro_llegada * -1) * Math.Log(num_aleatorios[i]);
+                // Console.WriteLine("iteracion " + i +  " p2 " + num_pseudo[i]);
             }
+
+            return num_aleatorios[1];
         }
 
+        public double aleatoriounico()
+        {
+            double numero;
+                numero = new Random().NextDouble();
+                numerocalc = (tiempo_pro_llegada * -1) * Math.Log(numero);
+            return numerocalc;
+
+            Console.WriteLine(numerocalc);
+        }
+
+        public double setAleatorios(){
+            double[] n;
+            n = new double[1000];
+            for (int i = 0; i < n.Length; i++)
+            {
+                n[i] = aleatoriounico();
+                Console.WriteLine("aqui" + num_pseudo[9] + " <-- pseudo" + i + " <-- i " + n[i]);
+            }
+            Console.WriteLine("aqui" + num_pseudo[999] + "" + " aja " + n[999]);
+
+            return n[1];
+        }
 
         public void probabilidadMM2()
         {
