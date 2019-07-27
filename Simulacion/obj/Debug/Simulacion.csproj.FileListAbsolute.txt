@@ -1,0 +1,11 @@
+C:\Users\GermanCode\Source\Repos\GermanCode\Simulacion\Simulacion\Simulacion\bin\Debug\Simulacion.exe.config
+E:\Desktop\Simulacion\Simulacion\bin\Debug\Simulacion.exe.config
+E:\Desktop\Simulacion\Simulacion\bin\Debug\Simulacion.exe
+E:\Desktop\Simulacion\Simulacion\bin\Debug\Simulacion.pdb
+E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.csprojResolveAssemblyReference.cache
+E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.Form1.resources
+E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.Properties.Resources.resources
+E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.csproj.GenerateResource.Cache
+E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.exe
+E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.pdb
+E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.Graficos.resources
