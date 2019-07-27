@@ -9,3 +9,6 @@ E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.csproj.GenerateResource.Ca
 E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.exe
 E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.pdb
 E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.Graficos.resources
+E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.GraficoMMS.resources
+E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.MenuInicial.resources
+E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.GraficoMM1.resources

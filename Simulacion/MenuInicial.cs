@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Simulacion
 {
-    public partial class Form1 : Form
+    public partial class MenuInicial : Form
     {
-        public Form1()
+        public MenuInicial()
         {
             InitializeComponent();
         }
@@ -35,6 +35,8 @@ namespace Simulacion
         {
             MM1 mm1 = new MM1();
             mm1.probabilidades();
+            GraficoMM1 g = new GraficoMM1();
+            g.Visible = true;
         }
 
         private void button1_Click_1(object sender, EventArgs e)

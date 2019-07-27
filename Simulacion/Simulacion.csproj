@@ -46,29 +46,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Grafico2C1S.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Grafico2C1S.Designer.cs">
+      <DependentUpon>Grafico2C1S.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraficoMMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraficoMMS.Designer.cs">
+      <DependentUpon>GraficoMMS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuInicial.Designer.cs">
+      <DependentUpon>MenuInicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Datos.cs" />
-    <Compile Include="Graficos.cs">
+    <Compile Include="GraficoMM1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Graficos.Designer.cs">
-      <DependentUpon>Graficos.cs</DependentUpon>
+    <Compile Include="GraficoMM1.Designer.cs">
+      <DependentUpon>GraficoMM1.cs</DependentUpon>
     </Compile>
     <Compile Include="MM1.cs" />
     <Compile Include="MM1_2Canales.cs" />
     <Compile Include="MMS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Grafico2C1S.resx">
+      <DependentUpon>Grafico2C1S.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Graficos.resx">
-      <DependentUpon>Graficos.cs</DependentUpon>
+    <EmbeddedResource Include="GraficoMMS.resx">
+      <DependentUpon>GraficoMMS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuInicial.resx">
+      <DependentUpon>MenuInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraficoMM1.resx">
+      <DependentUpon>GraficoMM1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
