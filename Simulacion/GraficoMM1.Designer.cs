@@ -394,8 +394,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Graficos";
-            this.Text = "Graficos";
+            this.Name = "Grafico MM1";
+            this.Text = "Grafico MM1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

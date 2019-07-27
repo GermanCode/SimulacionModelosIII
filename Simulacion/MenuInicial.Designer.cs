@@ -66,7 +66,7 @@
             this.MM1.TabIndex = 2;
             this.MM1.Text = "MM1";
             this.MM1.UseVisualStyleBackColor = true;
-            this.MM1.Click += new System.EventHandler(this.button3_Click);
+            this.MM1.Click += new System.EventHandler(this.btnMM1);
             // 
             // Simultaneos
             // 

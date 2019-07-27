@@ -1,6 +1,6 @@
 ﻿namespace Simulacion
 {
-    partial class GraficoMM1
+    partial class GraficoMMS
     {
         /// <summary>
         /// Required designer variable.
@@ -28,374 +28,375 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.TotalAbandono = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.TmaxCola = new System.Windows.Forms.Label();
-            this.TMinCola = new System.Windows.Forms.Label();
-            this.TPromCola = new System.Windows.Forms.Label();
-            this.TPromServ = new System.Windows.Forms.Label();
-            this.TMinServ = new System.Windows.Forms.Label();
-            this.TMaxServ = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.Aband10M = new System.Windows.Forms.Label();
-            this.Aband6M = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.label1MMS = new System.Windows.Forms.Label();
+            this.label2MMS = new System.Windows.Forms.Label();
+            this.label3MMS = new System.Windows.Forms.Label();
+            this.textBox1MMS = new System.Windows.Forms.TextBox();
+            this.textBox2MMS = new System.Windows.Forms.TextBox();
+            this.textBox3MMS = new System.Windows.Forms.TextBox();
+            this.textBox4MMS = new System.Windows.Forms.TextBox();
+            this.label4MMS = new System.Windows.Forms.Label();
+            this.label5MMS = new System.Windows.Forms.Label();
+            this.label6MMS = new System.Windows.Forms.Label();
+            this.label7MMS = new System.Windows.Forms.Label();
+            this.label8MMS = new System.Windows.Forms.Label();
+            this.label9MMS = new System.Windows.Forms.Label();
+            this.TotalAbandonoMMS = new System.Windows.Forms.Label();
+            this.label11MMS = new System.Windows.Forms.Label();
+            this.TmaxColaMMS = new System.Windows.Forms.Label();
+            this.TMinColaMMS = new System.Windows.Forms.Label();
+            this.TPromColaMMS = new System.Windows.Forms.Label();
+            this.TPromServMMS = new System.Windows.Forms.Label();
+            this.TMinServMMS = new System.Windows.Forms.Label();
+            this.TMaxServMMS = new System.Windows.Forms.Label();
+            this.label12MMS = new System.Windows.Forms.Label();
+            this.Aband10MMMS = new System.Windows.Forms.Label();
+            this.Aband6MMMS = new System.Windows.Forms.Label();
+            this.label10MMS = new System.Windows.Forms.Label();
+            this.label13MMS = new System.Windows.Forms.Label();
+            this.textBox5MMS = new System.Windows.Forms.TextBox();
+            this.textBox6MMS = new System.Windows.Forms.TextBox();
+            this.textBox7MMS = new System.Windows.Forms.TextBox();
+            this.textBox8MMS = new System.Windows.Forms.TextBox();
+            this.label14MMS = new System.Windows.Forms.Label();
+            this.label15MMS = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tiempo Maximo de Espera en Cola: ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 71);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(182, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Tiempo Promedio de Espera en Cola:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(382, 25);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Inicia Servicio";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(346, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(28, 20);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "0";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(380, 48);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(28, 20);
-            this.textBox2.TabIndex = 4;
-            this.textBox2.Text = "8";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(427, 48);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(28, 20);
-            this.textBox3.TabIndex = 5;
-            this.textBox3.Text = "0";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(461, 48);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(28, 20);
-            this.textBox4.TabIndex = 6;
-            this.textBox4.Text = "0";
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(412, 48);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 20);
-            this.label4.TabIndex = 7;
-            this.label4.Text = ":";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(24, 111);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(140, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Tiempo Maximo de Servicio:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(21, 136);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(137, 13);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Tiempo Minimo de Servicio:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(21, 159);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(148, 13);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Tiempo Promedio de Servicio:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(24, 200);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(154, 13);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Abandonan Despues de 6 Min:";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(24, 225);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(160, 13);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "Abandonan Despues de 10 Min:";
-            // 
-            // TotalAbandono
-            // 
-            this.TotalAbandono.AutoSize = true;
-            this.TotalAbandono.Location = new System.Drawing.Point(24, 247);
-            this.TotalAbandono.Name = "TotalAbandono";
-            this.TotalAbandono.Size = new System.Drawing.Size(86, 13);
-            this.TotalAbandono.TabIndex = 13;
-            this.TotalAbandono.Text = "Total Abandono:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(24, 48);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(171, 13);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "Tiempo Minimo de Espera en Cola:";
-            // 
-            // TmaxCola
-            // 
-            this.TmaxCola.AutoSize = true;
-            this.TmaxCola.Location = new System.Drawing.Point(227, 25);
-            this.TmaxCola.Name = "TmaxCola";
-            this.TmaxCola.Size = new System.Drawing.Size(16, 13);
-            this.TmaxCola.TabIndex = 15;
-            this.TmaxCola.Text = "...";
-            // 
-            // TMinCola
-            // 
-            this.TMinCola.AutoSize = true;
-            this.TMinCola.Location = new System.Drawing.Point(227, 48);
-            this.TMinCola.Name = "TMinCola";
-            this.TMinCola.Size = new System.Drawing.Size(16, 13);
-            this.TMinCola.TabIndex = 16;
-            this.TMinCola.Text = "...";
-            // 
-            // TPromCola
-            // 
-            this.TPromCola.AutoSize = true;
-            this.TPromCola.Location = new System.Drawing.Point(227, 71);
-            this.TPromCola.Name = "TPromCola";
-            this.TPromCola.Size = new System.Drawing.Size(16, 13);
-            this.TPromCola.TabIndex = 17;
-            this.TPromCola.Text = "...";
-            // 
-            // TPromServ
-            // 
-            this.TPromServ.AutoSize = true;
-            this.TPromServ.Location = new System.Drawing.Point(227, 157);
-            this.TPromServ.Name = "TPromServ";
-            this.TPromServ.Size = new System.Drawing.Size(16, 13);
-            this.TPromServ.TabIndex = 20;
-            this.TPromServ.Text = "...";
-            // 
-            // TMinServ
-            // 
-            this.TMinServ.AutoSize = true;
-            this.TMinServ.Location = new System.Drawing.Point(227, 134);
-            this.TMinServ.Name = "TMinServ";
-            this.TMinServ.Size = new System.Drawing.Size(16, 13);
-            this.TMinServ.TabIndex = 19;
-            this.TMinServ.Text = "...";
-            // 
-            // TMaxServ
-            // 
-            this.TMaxServ.AutoSize = true;
-            this.TMaxServ.Location = new System.Drawing.Point(227, 111);
-            this.TMaxServ.Name = "TMaxServ";
-            this.TMaxServ.Size = new System.Drawing.Size(16, 13);
-            this.TMaxServ.TabIndex = 18;
-            this.TMaxServ.Text = "...";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(227, 246);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(16, 13);
-            this.label12.TabIndex = 23;
-            this.label12.Text = "...";
-            // 
-            // Aband10M
-            // 
-            this.Aband10M.AutoSize = true;
-            this.Aband10M.Location = new System.Drawing.Point(227, 223);
-            this.Aband10M.Name = "Aband10M";
-            this.Aband10M.Size = new System.Drawing.Size(16, 13);
-            this.Aband10M.TabIndex = 22;
-            this.Aband10M.Text = "...";
-            // 
-            // Aband6M
-            // 
-            this.Aband6M.AutoSize = true;
-            this.Aband6M.Location = new System.Drawing.Point(227, 200);
-            this.Aband6M.Name = "Aband6M";
-            this.Aband6M.Size = new System.Drawing.Size(16, 13);
-            this.Aband6M.TabIndex = 21;
-            this.Aband6M.Text = "...";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(399, 111);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(56, 13);
-            this.label10.TabIndex = 24;
-            this.label10.Text = "Inicia Cola";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(412, 133);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(13, 20);
-            this.label13.TabIndex = 29;
-            this.label13.Text = ":";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(461, 133);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(28, 20);
-            this.textBox5.TabIndex = 28;
-            this.textBox5.Text = "0";
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(427, 133);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(28, 20);
-            this.textBox6.TabIndex = 27;
-            this.textBox6.Text = "0";
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(380, 133);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(28, 20);
-            this.textBox7.TabIndex = 26;
-            this.textBox7.Text = "8";
-            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(346, 133);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(28, 20);
-            this.textBox8.TabIndex = 25;
-            this.textBox8.Text = "0";
-            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(382, 181);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(83, 13);
-            this.label14.TabIndex = 30;
-            this.label14.Text = "Decision Logica";
-            this.label14.Click += new System.EventHandler(this.label14_Click);
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(424, 209);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(16, 13);
-            this.label15.TabIndex = 31;
-            this.label15.Text = "...";
-            // 
-            // Graficos
+            // label1MMS
+            // 
+            this.label1MMS.AutoSize = true;
+            this.label1MMS.Location = new System.Drawing.Point(24, 25);
+            this.label1MMS.Name = "label1MMS";
+            this.label1MMS.Size = new System.Drawing.Size(177, 13);
+            this.label1MMS.TabIndex = 0;
+            this.label1MMS.Text = "Tiempo Maximo de Espera en Cola: ";
+            this.label1MMS.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2MMS
+            // 
+            this.label2MMS.AutoSize = true;
+            this.label2MMS.Location = new System.Drawing.Point(24, 71);
+            this.label2MMS.Name = "label2MMS";
+            this.label2MMS.Size = new System.Drawing.Size(182, 13);
+            this.label2MMS.TabIndex = 1;
+            this.label2MMS.Text = "Tiempo Promedio de Espera en Cola:";
+            // 
+            // label3MMS
+            // 
+            this.label3MMS.AutoSize = true;
+            this.label3MMS.Location = new System.Drawing.Point(382, 25);
+            this.label3MMS.Name = "label3MMS";
+            this.label3MMS.Size = new System.Drawing.Size(73, 13);
+            this.label3MMS.TabIndex = 2;
+            this.label3MMS.Text = "Inicia Servicio";
+            // 
+            // textBox1MMS
+            // 
+            this.textBox1MMS.Location = new System.Drawing.Point(346, 48);
+            this.textBox1MMS.Name = "textBox1MMS";
+            this.textBox1MMS.Size = new System.Drawing.Size(28, 20);
+            this.textBox1MMS.TabIndex = 3;
+            this.textBox1MMS.Text = "0";
+            this.textBox1MMS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1MMS.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textBox2MMS
+            // 
+            this.textBox2MMS.Location = new System.Drawing.Point(380, 48);
+            this.textBox2MMS.Name = "textBox2MMS";
+            this.textBox2MMS.Size = new System.Drawing.Size(28, 20);
+            this.textBox2MMS.TabIndex = 4;
+            this.textBox2MMS.Text = "8";
+            this.textBox2MMS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox3MMS
+            // 
+            this.textBox3MMS.Location = new System.Drawing.Point(427, 48);
+            this.textBox3MMS.Name = "textBox3MMS";
+            this.textBox3MMS.Size = new System.Drawing.Size(28, 20);
+            this.textBox3MMS.TabIndex = 5;
+            this.textBox3MMS.Text = "0";
+            this.textBox3MMS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox4MMS
+            // 
+            this.textBox4MMS.Location = new System.Drawing.Point(461, 48);
+            this.textBox4MMS.Name = "textBox4MMS";
+            this.textBox4MMS.Size = new System.Drawing.Size(28, 20);
+            this.textBox4MMS.TabIndex = 6;
+            this.textBox4MMS.Text = "0";
+            this.textBox4MMS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label4MMS
+            // 
+            this.label4MMS.AutoSize = true;
+            this.label4MMS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4MMS.Location = new System.Drawing.Point(412, 48);
+            this.label4MMS.Name = "label4MMS";
+            this.label4MMS.Size = new System.Drawing.Size(13, 20);
+            this.label4MMS.TabIndex = 7;
+            this.label4MMS.Text = ":";
+            // 
+            // label5MMS
+            // 
+            this.label5MMS.AutoSize = true;
+            this.label5MMS.Location = new System.Drawing.Point(24, 111);
+            this.label5MMS.Name = "label5MMS";
+            this.label5MMS.Size = new System.Drawing.Size(140, 13);
+            this.label5MMS.TabIndex = 8;
+            this.label5MMS.Text = "Tiempo Maximo de Servicio:";
+            // 
+            // label6MMS
+            // 
+            this.label6MMS.AutoSize = true;
+            this.label6MMS.Location = new System.Drawing.Point(21, 136);
+            this.label6MMS.Name = "label6MMS";
+            this.label6MMS.Size = new System.Drawing.Size(137, 13);
+            this.label6MMS.TabIndex = 9;
+            this.label6MMS.Text = "Tiempo Minimo de Servicio:";
+            // 
+            // label7MMS
+            // 
+            this.label7MMS.AutoSize = true;
+            this.label7MMS.Location = new System.Drawing.Point(21, 159);
+            this.label7MMS.Name = "label7MMS";
+            this.label7MMS.Size = new System.Drawing.Size(148, 13);
+            this.label7MMS.TabIndex = 10;
+            this.label7MMS.Text = "Tiempo Promedio de Servicio:";
+            // 
+            // label8MMS
+            // 
+            this.label8MMS.AutoSize = true;
+            this.label8MMS.Location = new System.Drawing.Point(24, 200);
+            this.label8MMS.Name = "label8MMS";
+            this.label8MMS.Size = new System.Drawing.Size(154, 13);
+            this.label8MMS.TabIndex = 11;
+            this.label8MMS.Text = "Abandonan Despues de 6 Min:";
+            this.label8MMS.Click += new System.EventHandler(this.label8_Click);
+            // 
+            // label9MMS
+            // 
+            this.label9MMS.AutoSize = true;
+            this.label9MMS.Location = new System.Drawing.Point(24, 225);
+            this.label9MMS.Name = "label9MMS";
+            this.label9MMS.Size = new System.Drawing.Size(160, 13);
+            this.label9MMS.TabIndex = 12;
+            this.label9MMS.Text = "Abandonan Despues de 10 Min:";
+            // 
+            // TotalAbandonoMMS
+            // 
+            this.TotalAbandonoMMS.AutoSize = true;
+            this.TotalAbandonoMMS.Location = new System.Drawing.Point(24, 247);
+            this.TotalAbandonoMMS.Name = "TotalAbandonoMMS";
+            this.TotalAbandonoMMS.Size = new System.Drawing.Size(86, 13);
+            this.TotalAbandonoMMS.TabIndex = 13;
+            this.TotalAbandonoMMS.Text = "Total Abandono:";
+            // 
+            // label11MMS
+            // 
+            this.label11MMS.AutoSize = true;
+            this.label11MMS.Location = new System.Drawing.Point(24, 48);
+            this.label11MMS.Name = "label11MMS";
+            this.label11MMS.Size = new System.Drawing.Size(171, 13);
+            this.label11MMS.TabIndex = 14;
+            this.label11MMS.Text = "Tiempo Minimo de Espera en Cola:";
+            // 
+            // TmaxColaMMS
+            // 
+            this.TmaxColaMMS.AutoSize = true;
+            this.TmaxColaMMS.Location = new System.Drawing.Point(227, 25);
+            this.TmaxColaMMS.Name = "TmaxColaMMS";
+            this.TmaxColaMMS.Size = new System.Drawing.Size(16, 13);
+            this.TmaxColaMMS.TabIndex = 15;
+            this.TmaxColaMMS.Text = "...";
+            // 
+            // TMinColaMMS
+            // 
+            this.TMinColaMMS.AutoSize = true;
+            this.TMinColaMMS.Location = new System.Drawing.Point(227, 48);
+            this.TMinColaMMS.Name = "TMinColaMMS";
+            this.TMinColaMMS.Size = new System.Drawing.Size(16, 13);
+            this.TMinColaMMS.TabIndex = 16;
+            this.TMinColaMMS.Text = "...";
+            // 
+            // TPromColaMMS
+            // 
+            this.TPromColaMMS.AutoSize = true;
+            this.TPromColaMMS.Location = new System.Drawing.Point(227, 71);
+            this.TPromColaMMS.Name = "TPromColaMMS";
+            this.TPromColaMMS.Size = new System.Drawing.Size(16, 13);
+            this.TPromColaMMS.TabIndex = 17;
+            this.TPromColaMMS.Text = "...";
+            // 
+            // TPromServMMS
+            // 
+            this.TPromServMMS.AutoSize = true;
+            this.TPromServMMS.Location = new System.Drawing.Point(227, 157);
+            this.TPromServMMS.Name = "TPromServMMS";
+            this.TPromServMMS.Size = new System.Drawing.Size(16, 13);
+            this.TPromServMMS.TabIndex = 20;
+            this.TPromServMMS.Text = "...";
+            // 
+            // TMinServMMS
+            // 
+            this.TMinServMMS.AutoSize = true;
+            this.TMinServMMS.Location = new System.Drawing.Point(227, 134);
+            this.TMinServMMS.Name = "TMinServMMS";
+            this.TMinServMMS.Size = new System.Drawing.Size(16, 13);
+            this.TMinServMMS.TabIndex = 19;
+            this.TMinServMMS.Text = "...";
+            // 
+            // TMaxServMMS
+            // 
+            this.TMaxServMMS.AutoSize = true;
+            this.TMaxServMMS.Location = new System.Drawing.Point(227, 111);
+            this.TMaxServMMS.Name = "TMaxServMMS";
+            this.TMaxServMMS.Size = new System.Drawing.Size(16, 13);
+            this.TMaxServMMS.TabIndex = 18;
+            this.TMaxServMMS.Text = "...";
+            // 
+            // label12MMS
+            // 
+            this.label12MMS.AutoSize = true;
+            this.label12MMS.Location = new System.Drawing.Point(227, 246);
+            this.label12MMS.Name = "label12MMS";
+            this.label12MMS.Size = new System.Drawing.Size(16, 13);
+            this.label12MMS.TabIndex = 23;
+            this.label12MMS.Text = "...";
+            // 
+            // Aband10MMMS
+            // 
+            this.Aband10MMMS.AutoSize = true;
+            this.Aband10MMMS.Location = new System.Drawing.Point(227, 223);
+            this.Aband10MMMS.Name = "Aband10MMMS";
+            this.Aband10MMMS.Size = new System.Drawing.Size(16, 13);
+            this.Aband10MMMS.TabIndex = 22;
+            this.Aband10MMMS.Text = "...";
+            // 
+            // Aband6MMMS
+            // 
+            this.Aband6MMMS.AutoSize = true;
+            this.Aband6MMMS.Location = new System.Drawing.Point(227, 200);
+            this.Aband6MMMS.Name = "Aband6MMMS";
+            this.Aband6MMMS.Size = new System.Drawing.Size(16, 13);
+            this.Aband6MMMS.TabIndex = 21;
+            this.Aband6MMMS.Text = "...";
+            // 
+            // label10MMS
+            // 
+            this.label10MMS.AutoSize = true;
+            this.label10MMS.Location = new System.Drawing.Point(399, 111);
+            this.label10MMS.Name = "label10MMS";
+            this.label10MMS.Size = new System.Drawing.Size(56, 13);
+            this.label10MMS.TabIndex = 24;
+            this.label10MMS.Text = "Inicia Cola";
+            this.label10MMS.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // label13MMS
+            // 
+            this.label13MMS.AutoSize = true;
+            this.label13MMS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13MMS.Location = new System.Drawing.Point(412, 133);
+            this.label13MMS.Name = "label13MMS";
+            this.label13MMS.Size = new System.Drawing.Size(13, 20);
+            this.label13MMS.TabIndex = 29;
+            this.label13MMS.Text = ":";
+            // 
+            // textBox5MMS
+            // 
+            this.textBox5MMS.Location = new System.Drawing.Point(461, 133);
+            this.textBox5MMS.Name = "textBox5MMS";
+            this.textBox5MMS.Size = new System.Drawing.Size(28, 20);
+            this.textBox5MMS.TabIndex = 28;
+            this.textBox5MMS.Text = "0";
+            this.textBox5MMS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox6MMS
+            // 
+            this.textBox6MMS.Location = new System.Drawing.Point(427, 133);
+            this.textBox6MMS.Name = "textBox6MMS";
+            this.textBox6MMS.Size = new System.Drawing.Size(28, 20);
+            this.textBox6MMS.TabIndex = 27;
+            this.textBox6MMS.Text = "0";
+            this.textBox6MMS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox7MMS
+            // 
+            this.textBox7MMS.Location = new System.Drawing.Point(380, 133);
+            this.textBox7MMS.Name = "textBox7MMS";
+            this.textBox7MMS.Size = new System.Drawing.Size(28, 20);
+            this.textBox7MMS.TabIndex = 26;
+            this.textBox7MMS.Text = "8";
+            this.textBox7MMS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox8MMS
+            // 
+            this.textBox8MMS.Location = new System.Drawing.Point(346, 133);
+            this.textBox8MMS.Name = "textBox8MMS";
+            this.textBox8MMS.Size = new System.Drawing.Size(28, 20);
+            this.textBox8MMS.TabIndex = 25;
+            this.textBox8MMS.Text = "0";
+            this.textBox8MMS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label14MMS
+            // 
+            this.label14MMS.AutoSize = true;
+            this.label14MMS.Location = new System.Drawing.Point(382, 181);
+            this.label14MMS.Name = "label14MMS";
+            this.label14MMS.Size = new System.Drawing.Size(83, 13);
+            this.label14MMS.TabIndex = 30;
+            this.label14MMS.Text = "Decision Logica";
+            this.label14MMS.Click += new System.EventHandler(this.label14_Click);
+            // 
+            // label15MMS
+            // 
+            this.label15MMS.AutoSize = true;
+            this.label15MMS.Location = new System.Drawing.Point(424, 209);
+            this.label15MMS.Name = "label15MMS";
+            this.label15MMS.Size = new System.Drawing.Size(16, 13);
+            this.label15MMS.TabIndex = 31;
+            this.label15MMS.Text = "...";
+            // 
+            // GraficoMMS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(556, 338);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.Aband10M);
-            this.Controls.Add(this.Aband6M);
-            this.Controls.Add(this.TPromServ);
-            this.Controls.Add(this.TMinServ);
-            this.Controls.Add(this.TMaxServ);
-            this.Controls.Add(this.TPromCola);
-            this.Controls.Add(this.TMinCola);
-            this.Controls.Add(this.TmaxCola);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.TotalAbandono);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "Graficos";
-            this.Text = "Graficos";
+            this.Controls.Add(this.label15MMS);
+            this.Controls.Add(this.label14MMS);
+            this.Controls.Add(this.label13MMS);
+            this.Controls.Add(this.textBox5MMS);
+            this.Controls.Add(this.textBox6MMS);
+            this.Controls.Add(this.textBox7MMS);
+            this.Controls.Add(this.textBox8MMS);
+            this.Controls.Add(this.label10MMS);
+            this.Controls.Add(this.label12MMS);
+            this.Controls.Add(this.Aband10MMMS);
+            this.Controls.Add(this.Aband6MMMS);
+            this.Controls.Add(this.TPromServMMS);
+            this.Controls.Add(this.TMinServMMS);
+            this.Controls.Add(this.TMaxServMMS);
+            this.Controls.Add(this.TPromColaMMS);
+            this.Controls.Add(this.TMinColaMMS);
+            this.Controls.Add(this.TmaxColaMMS);
+            this.Controls.Add(this.label11MMS);
+            this.Controls.Add(this.TotalAbandonoMMS);
+            this.Controls.Add(this.label9MMS);
+            this.Controls.Add(this.label8MMS);
+            this.Controls.Add(this.label7MMS);
+            this.Controls.Add(this.label6MMS);
+            this.Controls.Add(this.label5MMS);
+            this.Controls.Add(this.label4MMS);
+            this.Controls.Add(this.textBox4MMS);
+            this.Controls.Add(this.textBox3MMS);
+            this.Controls.Add(this.textBox2MMS);
+            this.Controls.Add(this.textBox1MMS);
+            this.Controls.Add(this.label3MMS);
+            this.Controls.Add(this.label2MMS);
+            this.Controls.Add(this.label1MMS);
+            this.Name = "GraficoMMS";
+            this.Text = "Grafico MMS";
+            this.Load += new System.EventHandler(this.GraficoMMS_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

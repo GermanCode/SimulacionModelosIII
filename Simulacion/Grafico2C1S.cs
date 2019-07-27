@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Simulacion
 {
-    public partial class Graficos : Form
+    public partial class Grafico2C1S : Form
     {
-        public Graficos()
+        public Grafico2C1S()
         {
             InitializeComponent();
         }

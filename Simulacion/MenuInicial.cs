@@ -19,8 +19,10 @@ namespace Simulacion
         // MM2
         private void button1_Click(object sender, EventArgs e)
         {
-            MM1 mm1 = new MM1();
-            mm1.probabilidades();
+            MMS mm2 = new MMS();
+            mm2.probabilidades();
+            GraficoMMS gmms = new GraficoMMS();
+            gmms.Visible = true;
         }
 
         //Dos Canales
@@ -28,15 +30,18 @@ namespace Simulacion
         {
             MM1_2Canales m2c = new MM1_2Canales();
             m2c.probabilidades();
+            Grafico2C1S gm2c = new Grafico2C1S();
+            gm2c.Visible = true;
+            
 
         }
         // MM1
-        private void button3_Click(object sender, EventArgs e)
+        private void btnMM1(object sender, EventArgs e)
         {
             MM1 mm1 = new MM1();
             mm1.probabilidades();
-            GraficoMM1 g = new GraficoMM1();
-            g.Visible = true;
+            GraficoMM1 gmm1 = new GraficoMM1();
+            gmm1.Visible = true;
         }
 
         private void button1_Click_1(object sender, EventArgs e)

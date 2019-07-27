@@ -1,6 +1,6 @@
 ﻿namespace Simulacion
 {
-    partial class Graficos
+    partial class Grafico2C1S
     {
         /// <summary>
         /// Required designer variable.
