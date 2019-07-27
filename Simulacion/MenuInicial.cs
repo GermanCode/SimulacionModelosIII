@@ -42,6 +42,8 @@ namespace Simulacion
             mm1.probabilidades();
             GraficoMM1 gmm1 = new GraficoMM1();
             gmm1.Visible = true;
+            Datos d = new Datos();
+            d.setAleatorios();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
