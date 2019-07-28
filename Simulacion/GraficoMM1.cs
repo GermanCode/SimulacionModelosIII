@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Simulacion
 {
     public partial class GraficoMM1 : Form
@@ -15,6 +16,7 @@ namespace Simulacion
         public GraficoMM1()
         {
             InitializeComponent();
+            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -40,6 +42,11 @@ namespace Simulacion
         private void label14_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void GraficoMM1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

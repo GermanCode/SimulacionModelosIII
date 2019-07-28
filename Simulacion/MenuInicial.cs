@@ -12,12 +12,14 @@ namespace Simulacion
 {
     public partial class MenuInicial : Form
     {
+        Datos d = new Datos();
         public MenuInicial()
         {
             InitializeComponent();
+            d.GeneracionAleatorios();            
         }
         // MM2
-        private void button1_Click(object sender, EventArgs e)
+        private void btnMM2(object sender, EventArgs e)
         {
             MMS mm2 = new MMS();
             mm2.probabilidades();
@@ -40,16 +42,27 @@ namespace Simulacion
         {
             MM1 mm1 = new MM1();
             mm1.probabilidades();
+            for (int i = 0; i < 1000; i++)
+            {
+                mm1.tiempoentrellegadas[i] = d.a[i];
+                Console.WriteLine("Tiempo entre llegadas desde menu inicial "+ d.a[i]);
+            }
             GraficoMM1 gmm1 = new GraficoMM1();
             gmm1.Visible = true;
-            Datos d = new Datos();
-            d.setAleatorios();
+            mm1.T_E_LLegadas();
+            
+
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void btnAleatorios(object sender, EventArgs e)
         {
             Datos d = new Datos();
-            d.aleatorio();
+            d.GeneracionAleatorios();
+        }
+
+        private void MenuInicial_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

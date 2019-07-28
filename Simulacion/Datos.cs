@@ -3,48 +3,60 @@
 namespace Simulacion
 {
     class Datos
-    {
-        
+    {       
         int tiempo_pro_llegada = 6;
+        //double lamnda = 1 / 6;
+
+        //Creacion de los numeros Aleatorios Originales.
         static int rango = 1000;
         public double[] num_aleatorios = new double[rango];
-        public double[] num_pseudo = new double[rango];
-        double numerocalc;
+        public double[]  num_pseudo = new double[rango];
 
-        public double aleatorio()
+        //Creacion de los Aleatorios Espejo de cada opción.
+        public double[] a = new double[rango];
+        public double[] b = new double[rango];
+        public double[] c = new double[rango];
+
+        Random ramd = new Random(rango);
+        double t;
+
+        public double GeneracionAleatorios()
         {
-            for (int i = 0; i < rango; i++)
+            for (int i = 0; i < 1000; i++)
             {
-                num_aleatorios[i] = new Random().NextDouble();
-                //Console.WriteLine("aqui va el numero: " + i + " el aleatorio: " + (tiempo_pro_llegada * -1) * Math.Log(num_aleatorios[i]));
-                num_pseudo[i] = (tiempo_pro_llegada * -1) * Math.Log(num_aleatorios[i]);
-                // Console.WriteLine("iteracion " + i +  " p2 " + num_pseudo[i]);
-            }
+                num_aleatorios[i] = ramd.NextDouble();
+                num_pseudo[i] = (tiempo_pro_llegada * -1) * Math.Log(ramd.NextDouble());
+                Console.WriteLine("iteracion " + i + " Valor Pseudo --> " + num_pseudo[i]);
+                a[i] = num_pseudo[i];
+                b[i] = num_pseudo[i];
+                c[i] = num_pseudo[i];
+                t = i;
 
-            return num_aleatorios[1];
+                Console.WriteLine("a " + a[i]);
+            }
+            
+            return t;
         }
 
-        public double aleatoriounico()
-        {
-            double numero;
-                numero = new Random().NextDouble();
-                numerocalc = (tiempo_pro_llegada * -1) * Math.Log(numero);
-            return numerocalc;
-
-            Console.WriteLine(numerocalc);
+        public double[] AleatorioEspejoa()
+        {           
+            for (int i = 0; i < 1000; i++)
+            {
+                Console.WriteLine("Espejo a " + this.a[i]);
+            }
+                return a;
         }
 
-        public double setAleatorios(){
-            double[] n;
-            n = new double[1000];
-            for (int i = 0; i < n.Length; i++)
-            {
-                n[i] = aleatoriounico();
-                Console.WriteLine("aqui" + num_pseudo[9] + " <-- pseudo" + i + " <-- i " + n[i]);
-            }
-            Console.WriteLine("aqui" + num_pseudo[999] + "" + " aja " + n[999]);
+        public double[] AleatorioEspejob()
+        {
+            Console.WriteLine("Espejo b " +b);
+            return this.b;
+        }
 
-            return n[1];
+        public double[] AleatorioEspejoc()
+        {
+            Console.WriteLine("Espejo C " + c);
+            return this.c;
         }
 
         public void probabilidadMM2()
@@ -73,6 +85,8 @@ namespace Simulacion
             }
             Console.WriteLine("___________________________________________________________________________________");
         }
+
+
 
     }
 }

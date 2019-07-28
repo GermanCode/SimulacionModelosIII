@@ -11,7 +11,7 @@ namespace Simulacion
         Datos d = new Datos();
         public void generaraleatorios()
         {
-            d.aleatorio();
+            d.GeneracionAleatorios();
         }
         public void probabilidades()
         {
