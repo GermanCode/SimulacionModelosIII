@@ -357,7 +357,7 @@
             this.label15.TabIndex = 31;
             this.label15.Text = "...";
             // 
-            // GraficoMM1
+            // Graficos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -394,9 +394,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "GraficoMM1";
+            this.Name = "Grafico MM1";
             this.Text = "Grafico MM1";
-            this.Load += new System.EventHandler(this.GraficoMM1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

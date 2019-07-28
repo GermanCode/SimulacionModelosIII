@@ -11,3 +11,15 @@ E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.GraficoMMS.resources
 E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.MenuInicial.resources
 E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.GraficoMM1.resources
 E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.Grafico2C1S.resources
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\bin\Debug\Simulacion.exe.config
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\obj\Debug\Simulacion.exe
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\obj\Debug\Simulacion.pdb
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\bin\Debug\Simulacion.exe
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\bin\Debug\Simulacion.pdb
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\obj\Debug\Simulacion.csprojResolveAssemblyReference.cache
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\obj\Debug\Simulacion.Grafico2C1S.resources
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\obj\Debug\Simulacion.GraficoMMS.resources
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\obj\Debug\Simulacion.MenuInicial.resources
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\obj\Debug\Simulacion.GraficoMM1.resources
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\obj\Debug\Simulacion.Properties.Resources.resources
+C:\Users\Equipo\Source\Repos\GermanCode\SimulacionModelosIII\Simulacion\obj\Debug\Simulacion.csproj.GenerateResource.Cache

@@ -46,7 +46,7 @@
             this.MM2.TabIndex = 0;
             this.MM2.Text = "MM2";
             this.MM2.UseVisualStyleBackColor = true;
-            this.MM2.Click += new System.EventHandler(this.btnMM2);
+            this.MM2.Click += new System.EventHandler(this.button1_Click);
             // 
             // DosCanales
             // 
@@ -56,7 +56,7 @@
             this.DosCanales.TabIndex = 1;
             this.DosCanales.Text = "2Canales1S";
             this.DosCanales.UseVisualStyleBackColor = true;
-            this.DosCanales.Click += new System.EventHandler(this.btn2Canales);
+            this.DosCanales.Click += new System.EventHandler(this.button2_Click);
             // 
             // MM1
             // 
@@ -85,7 +85,7 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Generar Aleatorios";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.btnAleatorios);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // pictureBox1
             // 
@@ -96,7 +96,7 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // MenuInicial
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -107,9 +107,8 @@
             this.Controls.Add(this.MM1);
             this.Controls.Add(this.DosCanales);
             this.Controls.Add(this.MM2);
-            this.Name = "MenuInicial";
+            this.Name = "Form1";
             this.Text = "Menu Inicial";
-            this.Load += new System.EventHandler(this.MenuInicial_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
