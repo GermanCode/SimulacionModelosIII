@@ -56,7 +56,7 @@
             this.DosCanales.TabIndex = 1;
             this.DosCanales.Text = "2Canales1S";
             this.DosCanales.UseVisualStyleBackColor = true;
-            this.DosCanales.Click += new System.EventHandler(this.button2_Click);
+            this.DosCanales.Click += new System.EventHandler(this.btn2Canales);
             // 
             // MM1
             // 

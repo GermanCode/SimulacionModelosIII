@@ -6,15 +6,30 @@ using System.Threading.Tasks;
 
 namespace Simulacion
 {
-    class MMS
-    {
+    class MMS{
+        //Instancia de los Datos
         Datos d = new Datos();
-        public void generaraleatorios()
-        {
-            d.GeneracionAleatorios();
+        public double[] tiempoentrellegadas = new double[1000];
+        public double[] tiempodeservicio = new double[1000];
+
+
+        public double[] T_E_LLegadas(){
+            for (int i = 0; i < 1000; i++){
+                //Tiempo entre llegadas en el menu inicial.
+                Console.WriteLine("T_E_LLegadas " + tiempoentrellegadas[i]);
+            }
+            return tiempoentrellegadas;
         }
-        public void probabilidades()
-        {
+
+        public double[] T_D_Servicio(){
+            for (int i = 0; i < 1000; i++){
+                //Tiempo de Servicio en el menu inicial.
+                Console.WriteLine("T_D_Servicio " + tiempodeservicio[i]);
+            }
+            return tiempoentrellegadas;
+        }
+
+        public void probabilidades(){
             d.probabilidadMM2();
         }
     }
