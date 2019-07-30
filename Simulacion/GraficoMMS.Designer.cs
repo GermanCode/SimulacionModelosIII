@@ -1,4 +1,6 @@
-﻿namespace Simulacion
+﻿using System.Windows.Forms;
+
+namespace Simulacion
 {
     partial class GraficoMMS
     {
@@ -436,5 +438,421 @@
         private System.Windows.Forms.TextBox textBox8MMS;
         private System.Windows.Forms.Label label14MMS;
         private System.Windows.Forms.Label label15MMS;
+
+        public Label Label1MMS
+        {
+            get
+            {
+                return label1MMS;
+            }
+
+            set
+            {
+                label1MMS = value;
+            }
+        }
+
+        public Label Label2MMS
+        {
+            get
+            {
+                return label2MMS;
+            }
+
+            set
+            {
+                label2MMS = value;
+            }
+        }
+
+        public Label Label3MMS
+        {
+            get
+            {
+                return label3MMS;
+            }
+
+            set
+            {
+                label3MMS = value;
+            }
+        }
+
+        public TextBox TextBox1MMS
+        {
+            get
+            {
+                return textBox1MMS;
+            }
+
+            set
+            {
+                textBox1MMS = value;
+            }
+        }
+
+        public TextBox TextBox2MMS
+        {
+            get
+            {
+                return textBox2MMS;
+            }
+
+            set
+            {
+                textBox2MMS = value;
+            }
+        }
+
+        public TextBox TextBox3MMS
+        {
+            get
+            {
+                return textBox3MMS;
+            }
+
+            set
+            {
+                textBox3MMS = value;
+            }
+        }
+
+        public TextBox TextBox4MMS
+        {
+            get
+            {
+                return textBox4MMS;
+            }
+
+            set
+            {
+                textBox4MMS = value;
+            }
+        }
+
+        public Label Label4MMS
+        {
+            get
+            {
+                return label4MMS;
+            }
+
+            set
+            {
+                label4MMS = value;
+            }
+        }
+
+        public Label Label5MMS
+        {
+            get
+            {
+                return label5MMS;
+            }
+
+            set
+            {
+                label5MMS = value;
+            }
+        }
+
+        public Label Label6MMS
+        {
+            get
+            {
+                return label6MMS;
+            }
+
+            set
+            {
+                label6MMS = value;
+            }
+        }
+
+        public Label Label7MMS
+        {
+            get
+            {
+                return label7MMS;
+            }
+
+            set
+            {
+                label7MMS = value;
+            }
+        }
+
+        public Label Label8MMS
+        {
+            get
+            {
+                return label8MMS;
+            }
+
+            set
+            {
+                label8MMS = value;
+            }
+        }
+
+        public Label Label9MMS
+        {
+            get
+            {
+                return label9MMS;
+            }
+
+            set
+            {
+                label9MMS = value;
+            }
+        }
+
+        public Label TotalAbandonoMMS1
+        {
+            get
+            {
+                return TotalAbandonoMMS;
+            }
+
+            set
+            {
+                TotalAbandonoMMS = value;
+            }
+        }
+
+        public Label Label11MMS
+        {
+            get
+            {
+                return label11MMS;
+            }
+
+            set
+            {
+                label11MMS = value;
+            }
+        }
+
+        public Label TmaxColaMMS1
+        {
+            get
+            {
+                return TmaxColaMMS;
+            }
+
+            set
+            {
+                TmaxColaMMS = value;
+            }
+        }
+
+        public Label TMinColaMMS1
+        {
+            get
+            {
+                return TMinColaMMS;
+            }
+
+            set
+            {
+                TMinColaMMS = value;
+            }
+        }
+
+        public Label TPromColaMMS1
+        {
+            get
+            {
+                return TPromColaMMS;
+            }
+
+            set
+            {
+                TPromColaMMS = value;
+            }
+        }
+
+        public Label TPromServMMS1
+        {
+            get
+            {
+                return TPromServMMS;
+            }
+
+            set
+            {
+                TPromServMMS = value;
+            }
+        }
+
+        public Label TMinServMMS1
+        {
+            get
+            {
+                return TMinServMMS;
+            }
+
+            set
+            {
+                TMinServMMS = value;
+            }
+        }
+
+        public Label TMaxServMMS1
+        {
+            get
+            {
+                return TMaxServMMS;
+            }
+
+            set
+            {
+                TMaxServMMS = value;
+            }
+        }
+
+        public Label Label12MMS
+        {
+            get
+            {
+                return label12MMS;
+            }
+
+            set
+            {
+                label12MMS = value;
+            }
+        }
+
+        public Label Aband10MMMS1
+        {
+            get
+            {
+                return Aband10MMMS;
+            }
+
+            set
+            {
+                Aband10MMMS = value;
+            }
+        }
+
+        public Label Aband6MMMS1
+        {
+            get
+            {
+                return Aband6MMMS;
+            }
+
+            set
+            {
+                Aband6MMMS = value;
+            }
+        }
+
+        public Label Label10MMS
+        {
+            get
+            {
+                return label10MMS;
+            }
+
+            set
+            {
+                label10MMS = value;
+            }
+        }
+
+        public Label Label13MMS
+        {
+            get
+            {
+                return label13MMS;
+            }
+
+            set
+            {
+                label13MMS = value;
+            }
+        }
+
+        public TextBox TextBox5MMS
+        {
+            get
+            {
+                return textBox5MMS;
+            }
+
+            set
+            {
+                textBox5MMS = value;
+            }
+        }
+
+        public TextBox TextBox6MMS
+        {
+            get
+            {
+                return textBox6MMS;
+            }
+
+            set
+            {
+                textBox6MMS = value;
+            }
+        }
+
+        public TextBox TextBox7MMS
+        {
+            get
+            {
+                return textBox7MMS;
+            }
+
+            set
+            {
+                textBox7MMS = value;
+            }
+        }
+
+        public TextBox TextBox8MMS
+        {
+            get
+            {
+                return textBox8MMS;
+            }
+
+            set
+            {
+                textBox8MMS = value;
+            }
+        }
+
+        public Label Label14MMS
+        {
+            get
+            {
+                return label14MMS;
+            }
+
+            set
+            {
+                label14MMS = value;
+            }
+        }
+
+        public Label Label15MMS
+        {
+            get
+            {
+                return label15MMS;
+            }
+
+            set
+            {
+                label15MMS = value;
+            }
+        }
     }
 }

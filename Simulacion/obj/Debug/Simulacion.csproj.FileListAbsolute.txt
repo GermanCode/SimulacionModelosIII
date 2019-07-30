@@ -10,3 +10,4 @@ E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.GraficoMMS.resources
 E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.MenuInicial.resources
 E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.GraficoMM1.resources
 E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.Grafico2C1S.resources
+E:\Desktop\Simulacion\Simulacion\obj\Debug\Simulacion.csprojResolveAssemblyReference.cache
